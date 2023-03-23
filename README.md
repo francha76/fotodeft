@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mi página web</title>
+    <title>Fotodeft - Impresión de flyers y tarjetas de presentación</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -29,27 +29,47 @@
         padding: 10px;
         text-align: center;
       }
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        margin: 10px;
+        padding: 10px;
+      }
+      .card h2 {
+        margin-top: 0;
+      }
+      .card p {
+        margin-bottom: 0;
+      }
     </style>
   </head>
   <body>
     <header>
-      <h1>Mi página web</h1>
+      <h1>Fotodeft - Impresión de flyers y tarjetas de presentación</h1>
     </header>
     <main>
-      <h2>Bienvenido</h2>
-      <p>¡Hola! Bienvenido a mi página web. Aquí encontrarás información sobre mí y mis intereses.</p>
-      <h3>Sobre mí</h3>
-      <p>Me llamo Juan y me encanta la tecnología y el diseño web. Estoy aprendiendo a programar y esta es una de mis primeras páginas web.</p>
-      <h3>Mis intereses</h3>
-      <ul>
-        <li>Tecnología</li>
-        <li>Diseño web</li>
-        <li>Videojuegos</li>
-        <li>Películas</li>
-      </ul>
+      <h2>Flyers</h2>
+      <div class="card">
+        <h3>Flyer 1</h3>
+        <p>Este flyer tiene un diseño atractivo y moderno. Impreso en papel brillante de alta calidad.</p>
+      </div>
+      <div class="card">
+        <h3>Flyer 2</h3>
+        <p>Este flyer tiene un diseño más clásico y elegante. Impreso en papel mate de alta calidad.</p>
+      </div>
+      <h2>Tarjetas de presentación</h2>
+      <div class="card">
+        <h3>Tarjeta 1</h3>
+        <p>Esta tarjeta tiene un diseño minimalista y profesional. Impresa en papel grueso de alta calidad.</p>
+      </div>
+      <div class="card">
+        <h3>Tarjeta 2</h3>
+        <p>Esta tarjeta tiene un diseño más creativo y original. Impresa en papel reciclado de alta calidad.</p>
+      </div>
     </main>
     <footer>
-      <p>© 2023 Juan Pérez</p>
+      <p>© 2023 Fotodeft - Impresión de flyers y tarjetas de presentación</p>
     </footer>
   </body>
 </html>
