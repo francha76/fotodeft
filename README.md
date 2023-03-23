@@ -1,2 +1,55 @@
-# fotodeft
-Empresa gráfica 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi página web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Estilos CSS para la página */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      h1 {
+        margin-top: 0;
+      }
+      main {
+        margin: 20px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mi página web</h1>
+    </header>
+    <main>
+      <h2>Bienvenido</h2>
+      <p>¡Hola! Bienvenido a mi página web. Aquí encontrarás información sobre mí y mis intereses.</p>
+      <h3>Sobre mí</h3>
+      <p>Me llamo Juan y me encanta la tecnología y el diseño web. Estoy aprendiendo a programar y esta es una de mis primeras páginas web.</p>
+      <h3>Mis intereses</h3>
+      <ul>
+        <li>Tecnología</li>
+        <li>Diseño web</li>
+        <li>Videojuegos</li>
+        <li>Películas</li>
+      </ul>
+    </main>
+    <footer>
+      <p>© 2023 Juan Pérez</p>
+    </footer>
+  </body>
+</html>
